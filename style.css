@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: peachpuff;
+}
+
+.container{
+    width:500px ;
+    height: 620px;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(43, 42, 42);
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    width: 100%;
+    height: 120px;
+    border: 0px;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    font-size: 80px;
+    text-align: right;
+}
+.ilk{
+    display: flex;
+}
+.hesap{
+    display: flex;
+    flex-direction: column;
+}
+.islem{
+    
+}
+.operator{
+    display: flex;
+    flex-direction: column;
+}
+.rakam button{
+    background-color: rgb(88, 88, 88);
+}
+button{
+    width: 120px;
+    height: 100px;
+    margin: 1px ;
+    border: 0px;
+    font-size: 30px;
+    color: rgb(250, 250, 250);
+    text-shadow: 1px 1px white;
+}
+
+#sifir{
+    width: 246px;
+}
+.operator button{
+    background-color: orange;
+}
+.islem button{
+    background-color: rgb(68, 67, 67);
+}
+
+
